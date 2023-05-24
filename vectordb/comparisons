@@ -1,0 +1,36 @@
+[{
+  "Qdrant": {
+    "About": "Qdrant is a vector similarity engine & vector database. It deploys as an API service providing search for the nearest high-dimensional vectors. With Qdrant, embeddings or neural network encoders can be turned into full-fledged applications for matching, searching, recommending, and much more! Provides the OpenAPI v3 specification to generate a client library in almost any programming language. Alternatively utilise ready-made client for Python or other programming languages with additional functionality. Implement a unique custom modification of the HNSW algorithm for Approximate Nearest Neighbor Search. Search with a State-of-the-Art speed and apply search filters without compromising on results. Support additional payload associated with vectors. Not only stores payload but also allows filter results based on payload values.",
+    "Company Information": {
+      "Founded": "2021",
+      "Location": "Germany",
+      "Website": "qdrant.tech/"
+    },
+    "Product Details": {
+      "Platforms Supported": "SaaS",
+      "Training": "Documentation",
+      "Support": "Online"
+    },
+    "User Types": [
+      "Mid Size Business",
+      "Small Business",
+      "Enterprise",
+      "Freelance",
+      "Nonprofit",
+      "Government"
+    ],
+    "Supported Languages": [
+      "English"
+    ],
+    "Integrate with": [
+      "ChatGPT Plus"
+    ],
+    "Product Features": [
+      "Neural Search",
+      "Site Search",
+      "Vector Databases",
+      "eCommerce Search"
+    ]
+  }
+},
+]
