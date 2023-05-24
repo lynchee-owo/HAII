@@ -79,6 +79,108 @@
       "Vector Databases"
     ]
   }
+},
+{
+  "Embeddinghub": {
+    "About": "Operationalize your embeddings with one simple tool. Experience a comprehensive database designed to provide embedding functionality that, until now, required multiple platforms. Elevate your machine learning quickly and painlessly through Embeddinghub. Embeddings are dense, numerical representations of real-world objects and relationships, expressed as vectors. They are often created by first defining a supervised machine learning problem, known as a \"surrogate problem.\" Embeddings intend to capture the semantics of the inputs they were derived from, subsequently getting shared and reused for improved learning across machine learning models. Embeddinghub lets you achieve this in a streamlined, intuitive way.",
+    "Company Information": {
+      "Founded": "2019",
+      "Location": "United States",
+      "Website": "www.featureform.com/embeddinghub"
+    },
+    "Pricing": {
+      "Starting Price": "Free",
+      "Free Version": "Free Version available."
+    },
+    "Product Details": {
+      "Platforms Supported": [
+        "SaaS",
+        "On-Premise"
+      ],
+      "Training": "Documentation"
+    },
+    "User Types": [
+      "Mid Size Business",
+      "Small Business",
+      "Enterprise",
+      "Freelance",
+      "Nonprofit",
+      "Government"
+    ],
+    "Supported Languages": [
+      "English"
+    ],
+    "Product Features": [
+      "Vector Databases"
+    ]
+  }
+},
+{
+  "Supabase": {
+    "About": "Create a backend in less than 2 minutes. Start your project with a Postgres database, authentication, instant APIs, real-time subscriptions and storage. Build faster and focus on your products. Every project is a full Postgres database, the world's most trusted relational database. Add user sign-ups and logins, securing your data with Row Level Security. Store, organize and serve large files. Any media, including videos and images. Write custom code and cron jobs without deploying or scaling servers. There are many example apps and starter projects to get going. We introspect your database to provide APIs instantly. Stop building repetitive CRUD endpoints and focus on your product. Type definitions built directly from your database schema. Use Supabase in the browser without a build process. Develop locally and push to production when you're ready. Manage Supabase projects from your local machine.",
+    "Pricing": {
+      "Starting Price": "$25 per month"
+    },
+    "Integrations": {
+      "API": true,
+      "Applications": [
+        "Appsmith",
+        "Auth0",
+        "Microsoft Azure",
+        "Bitbucket",
+        "Discord",
+        "Docker",
+        "Draftbit",
+        "Memphis",
+        "Facebook",
+        "Flutter",
+        "GitHub",
+        "GitLab",
+        "Google",
+        "Internal",
+        "Microsoft 365",
+        "Onboardbase",
+        "PostgreSQL",
+        "Prisma",
+        "Slack",
+        "Spotify",
+        "Twilio",
+        "Twitch",
+        "Twitter",
+        "Vercel",
+        "Whalesync"
+      ],
+      "More": true
+    },
+    "Company Information": {
+      "Name": "Supabase",
+      "Website": "supabase.com"
+    },
+    "Product Details": {
+      "Platforms Supported": "SaaS",
+      "Training": [
+        "Documentation",
+        "Videos"
+      ],
+      "Support": "Online"
+    },
+    "User Types": [
+      "Mid Size Business",
+      "Small Business",
+      "Enterprise",
+      "Freelance",
+      "Nonprofit",
+      "Government"
+    ],
+    "Supported Languages": [
+      "English"
+    ],
+    "Product Features": [
+      "Application Development",
+      "Database",
+      "Vector Databases"
+    ]
+  }
 }
 
 ]
