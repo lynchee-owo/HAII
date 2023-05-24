@@ -4,15 +4,22 @@
     "Company Information": {
       "Founded": "2021",
       "Location": "Germany",
-      "Website": "qdrant.tech/"
+      "Website": "https://qdrant.tech/"
     },
     "Audience": "Anyone interested in a vector search engine",
-    "Price": {},
     "Product Details": {
+      "IsOpenSource": true,
+      "Github": "https://github.com/qdrant/qdrant",
+      "API": true,
+      "Documentation": "https://qdrant.tech/documentation/quick_start/",
       "Platforms Supported": "SaaS",
       "Training": "Documentation",
       "Support": "Online",
-      "API": true
+      "Pricing": {
+        "Open Source": 0,
+        "Managed Cloud $/month": 25,
+        "Enterprise": "Price on Request"
+      }
     },
     "User Types": [
       "Mid Size Business",
@@ -42,15 +49,22 @@
     "Company Information": {
       "Founded": "2019",
       "Location": "United States",
-      "Website": "www.pinecone.io"
+      "Website": "https://www.pinecone.io/"
     },
     "Audience": "AI developers that need a long-term memory solution built for AI",
-    "Price": {},
     "Product Details": {
+      "IsOpenSource": false,
+      "Github": "https://github.com/pinecone-io",
+      "API": true,
+      "Documentation": "https://docs.pinecone.io/docs/overview",
       "Platforms Supported": "SaaS",
       "Training": "Documentation",
       "Support": "Online",
-      "API": true
+      "Pricing": {
+        "Starter": 0,
+        "Standard $/month": 70,
+        "Enterprise $/month": 104
+      }
     },
     "User Types": [
       "Mid Size Business",
@@ -94,16 +108,19 @@
       "Website": "www.featureform.com/embeddinghub"
     },
     "Audience": "Machine learning developers interested in a powerful vector/embeddings database",
-    "Price": {
-      "Starting Price": "Free",
-      "Free Version": "Free Version available."
-    },
     "Product Details": {
+      "IsOpenSource": true,
+      "Github": "https://github.com/featureform/featureform",
+      "API": true,
+      "Documentation": "https://docs.featureform.com/",
       "Platforms Supported": [
         "SaaS",
         "On-Premise"
       ],
-      "Training": "Documentation"
+      "Training": "Documentation",
+      "Pricing": {
+        "Free": 0
+      }
     },
     "User Types": [
       "Mid Size Business",
@@ -124,13 +141,28 @@
 {
   "Supabase": {
     "About": "Create a backend in less than 2 minutes. Start your project with a Postgres database, authentication, instant APIs, real-time subscriptions and storage. Build faster and focus on your products. Every project is a full Postgres database, the world's most trusted relational database. Add user sign-ups and logins, securing your data with Row Level Security. Store, organize and serve large files. Any media, including videos and images. Write custom code and cron jobs without deploying or scaling servers. There are many example apps and starter projects to get going. We introspect your database to provide APIs instantly. Stop building repetitive CRUD endpoints and focus on your product. Type definitions built directly from your database schema. Use Supabase in the browser without a build process. Develop locally and push to production when you're ready. Manage Supabase projects from your local machine.",
-    "Pricing": {
-      "Starting Price": "$25 per month"
+    "Company Information": {
+      "Founded": 2020,
+      "Location": "Singapore",
+      "Website": "https://supabase.com"
     },
     "Audience": "Developers searching for an open-source solution to create backends and build their projects",
-    "Integrations": {
+    "Product Details": {
+      "IsOpenSource": true,
+      "Github": "https://github.com/supabase/supabase",
       "API": true,
-      "Applications": [
+      "Documentation": "https://supabase.com/docs",
+      "Platforms Supported": "SaaS",
+      "Training": [
+        "Documentation",
+        "Videos"
+      ],
+      "Support": "Online",
+      "Pricing": {
+        "Starting Price ($/month)": 25
+      }
+    },
+    "Integration": [
         "Appsmith",
         "Auth0",
         "Microsoft Azure",
@@ -156,21 +188,7 @@
         "Twitter",
         "Vercel",
         "Whalesync"
-      ],
-      "More": true
-    },
-    "Company Information": {
-      "Name": "Supabase",
-      "Website": "supabase.com"
-    },
-    "Product Details": {
-      "Platforms Supported": "SaaS",
-      "Training": [
-        "Documentation",
-        "Videos"
-      ],
-      "Support": "Online"
-    },
+    ],
     "User Types": [
       "Mid Size Business",
       "Small Business",
@@ -192,28 +210,28 @@
 {
   "MyScale": {
     "About": "MyScale is an innovative AI database that seamlessly integrates vector search with SQL analytics, delivering a comprehensive, fully managed, and high-performance solution. Key Features: - Superior Data Capacity and Performance: Each MyScale pod supports 5 million 768-dimensional data points with exceptional accuracy, enabling over 150 queries per second (QPS). - Rapid Data Ingestion: Import up to 5 million data points in under 30 minutes, reducing waiting time and enabling faster utilization of your vector data. - Flexible Indexing: MyScale allows you to create multiple tables with unique vector indexes, efficiently managing diverse vector data within a single cluster. - Effortless Data Import and Backup: Seamlessly import/export data from/to S3 or other compatible storage systems, ensuring smooth data management and backup processes. With MyScale, unleash the power of advanced AI database capabilities for efficient and effective data analysis.",
-    "Audience": "MyScale is designed for organizations and companies that work with large-scale multimodal vector datasets, particularly those that require high-performance and fully managed AI databases",
-    "Pricing": {
-      "Free Trial": "Free Trial available."
-    },
-    "Integrations": {
-      "API": true,
-      "Applications": [
-        "LangChain",
-        "OpenAI"
-      ]
-    },
     "Company Information": {
-      "Name": "MyScale",
       "Founded": "2022",
       "Location": "Singapore",
-      "Website": "myscale.com"
+      "Website": "https://myscale.com/"
     },
+    "Audience": "MyScale is designed for organizations and companies that work with large-scale multimodal vector datasets, particularly those that require high-performance and fully managed AI databases",
     "Product Details": {
+      "IsOpenSource": false,
+      "Github": "",
+      "API": true,
+      "Documentation": "https://docs.myscale.com/en/",
       "Platforms Supported": "SaaS",
       "Training": "Documentation",
-      "Support": "Online"
+      "Support": "Online",
+      "Pricing": {
+        "hasFreeVersion": true
+      }
     },
+    "Integration": [
+      "LangChain",
+      "OpenAI"
+  ],
     "User Types": [
       "Mid Size Business",
       "Small Business",
@@ -225,8 +243,6 @@
     "Supported Languages": [
       "English"
     ],
-    "API": true,
-    "Training": "Documentation",
     "Product Features": [
       "Vector Databases"
     ]
@@ -236,24 +252,16 @@
   "Metal": {
     "About": "Metal is your production-ready, fully-managed, ML retrieval platform. Use Metal to find meaning in your unstructured data with embeddings. Metal is a managed service that allows you to build AI products without the hassle of managing infrastructure. Integrations with OpenAI, CLIP, and more. Easily process & chunk your documents. Take advantage of our system in production. Easily plug into the MetalRetriever. Simple /search endpoint for running ANN queries. Get started with a free account. Metal API Keys to use our API & SDKs. With your API Key, you can use authenticate by populating the headers. Learn how to use our Typescript SDK to implement Metal into your application. Although we love TypeScript, you can of course utilize this library in JavaScript. Mechanism to fine-tune your spp programmatically. Indexed vector database of your embeddings. Resources that represent your specific ML use-case.",
     "Audience": "Professional users and developers seeking a tool to find meaning in their unstructured data with embeddings",
-    "Pricing": {
-      "Starting Price": "$25 per month",
-      "Free Version": "Free Version available."
-    },
-    "Integrations": {
-      "API": true,
-      "Applications": [
-        "JavaScript",
-        "LangChain",
-        "OpenAI",
-        "TypeScript"
-      ]
-    },
     "Company Information": {
-      "Name": "Metal",
-      "Website": "getmetal.io"
+      "Founded": 2023,
+      "Location":"United States",
+      "Website": "https://getmetal.io/"
     },
     "Product Details": {
+      "IsOpenSource":false,
+      "API": true,
+      "Github": "https://github.com/getmetal/metal",
+      "Documentation": "https://docs.getmetal.io/introduction",
       "Platforms Supported": "SaaS",
       "Training": [
         "Documentation",
@@ -262,8 +270,19 @@
       "Support": [
         "24/7 Live Support",
         "Online"
-      ]
+      ],
+      "Pricing": {
+        "Hobbyist": 0,
+        "Developer ($/month)": 25,
+        "Business": "custom"
+      }
     },
+    "Integration": [
+      "JavaScript",
+      "LangChain",
+      "OpenAI",
+      "TypeScript"
+  ],
     "User Types": [
       "Mid Size Business",
       "Small Business",
@@ -274,11 +293,6 @@
     ],
     "Supported Languages": [
       "English"
-    ],
-    "API": true,
-    "Training": [
-      "Documentation",
-      "Live Online"
     ],
     "Product Features": [
       "AI Development",
@@ -291,11 +305,6 @@
   "Faiss": {
     "Audience": "Developers interested in a similarity search library",
     "About": "Faiss is a library for efficient similarity search and clustering of dense vectors. It contains algorithms that search in sets of vectors of any size, up to ones that possibly do not fit in RAM. It also contains supporting code for evaluation and parameter tuning. Faiss is written in C++ with complete wrappers for Python. Some of the most useful algorithms are implemented on the GPU. It is developed by Facebook AI Research.",
-    "Pricing": {
-      "Starting Price": "Free",
-      "Pricing Details": "Open source",
-      "Free Version": "Free Version available."
-    },
     "Company Information": {
       "Name": "Meta",
       "Founded": "2004",
@@ -303,11 +312,19 @@
       "Website": "faiss.ai/"
     },
     "Product Details": {
+      "API": false,
+      "IsOpenSource":true,
+      "Github": "https://github.com/facebookresearch/faiss",
+      "Documentation": "https://faiss.ai/",
       "Platforms Supported": [
         "SaaS",
         "On-Premise"
       ],
-      "Training": "Documentation"
+      "Support": "",
+      "Training": "Documentation",
+      "Pricing": {
+        "Free": 0
+      }
     },
     "User Types": [
       "Mid Size Business",
@@ -320,7 +337,6 @@
     "Supported Languages": [
       "English"
     ],
-    "Training": "Documentation",
     "Product Features": [
       "Vector Databases"
     ]
@@ -330,23 +346,25 @@
   "Chroma": {
     "Audience": "AI developers",
     "About": "Chroma is an AI-native open-source embedding database. Chroma has all the tools you need to use embeddings. Chroma is building the database that learns. Pick up an issue, create a PR, or participate in our Discord and let the community know what features you would like.",
-    "Pricing": {
-      "Starting Price": "Free",
-      "Pricing Details": "Open source",
-      "Free Version": "Free Version available."
-    },
     "Company Information": {
-      "Name": "Chroma",
       "Founded": "2022",
       "Location": "United States",
       "Website": "www.trychroma.com"
     },
     "Product Details": {
+      "IsOpenSource": true,
+      "API": true,
+      "Github": "https://github.com/chroma-core/chroma",
+      "Documentation": "https://docs.trychroma.com/",
       "Platforms Supported": [
         "SaaS",
         "On-Premise"
       ],
-      "Training": "Documentation"
+      "Support": "",
+      "Training": "Documentation",
+      "Pricing": {
+        "Free": 0
+      }
     },
     "User Types": [
       "Mid Size Business",
@@ -362,49 +380,6 @@
     "Integration": [
       "BabyAGI"
     ],
-    "Training": "Documentation",
-    "Product Features": [
-      "Vector Databases"
-    ]
-  }
-},
-{
-  "Chroma": {
-    "Audience": "AI developers",
-    "About": "Chroma is an AI-native open-source embedding database. Chroma has all the tools you need to use embeddings. Chroma is building the database that learns. Pick up an issue, create a PR, or participate in our Discord and let the community know what features you would like.",
-    "Pricing": {
-      "Starting Price": "Free",
-      "Pricing Details": "Open source",
-      "Free Version": "Free Version available."
-    },
-    "Company Information": {
-      "Name": "Chroma",
-      "Founded": "2022",
-      "Location": "United States",
-      "Website": "www.trychroma.com"
-    },
-    "Product Details": {
-      "Platforms Supported": [
-        "SaaS",
-        "On-Premise"
-      ],
-      "Training": "Documentation"
-    },
-    "User Types": [
-      "Mid Size Business",
-      "Small Business",
-      "Enterprise",
-      "Freelance",
-      "Nonprofit",
-      "Government"
-    ],
-    "Supported Languages": [
-      "English"
-    ],
-    "Integration": [
-      "BabyAGI"
-    ],
-    "Training": "Documentation",
     "Product Features": [
       "Vector Databases"
     ]
@@ -414,20 +389,22 @@
   "Vald": {
     "Audience": "Developers interested in a powerful vector search engine and database",
     "About": "Vald is a highly scalable distributed fast approximate nearest neighbor dense vector search engine. Vald is designed and implemented based on the Cloud-Native architecture. It uses the fastest ANN Algorithm NGT to search neighbors. Vald has automatic vector indexing and index backup, and horizontal scaling which made for searching from billions of feature vector data. Vald is easy to use, feature-rich and highly customizable as you needed. Usually the graph requires locking during indexing, which cause stop-the-world. But Vald uses distributed index graph so it continues to work during indexing. Vald implements its own highly customizable Ingress/Egress filter. Which can be configured to fit the gRPC interface. Horizontal scalable on memory and cpu for your demand. Vald supports to auto backup feature using Object Storage or Persistent Volume which enables disaster recovery.",
-    "Pricing": {
-      "Starting Price": "Free",
-      "Pricing Details": "Open source",
-      "Free Version": "Free Version available."
-    },
     "Company Information": {
-      "Name": "Vald",
+      "Founded": "",
+      "Location": "",
       "Website": "vald.vdaas.org"
     },
     "Product Details": {
+      "IsOpenSource": true,
+      "API": true,
+      "Github": "https://github.com/vdaas/vald",
+      "Documentation": "https://vald.vdaas.org/docs/",
       "Platforms Supported": [
         "SaaS"
       ],
-      "Training": "Documentation"
+      "Pricing": {
+        "Free": 0
+      }
     },
     "User Types": [
       "Mid Size Business",
@@ -448,7 +425,6 @@
       "Node.js",
       "Python"
     ],
-    "Training": "Documentation",
     "Product Features": [
       "Neural Search",
       "Vector Databases"
@@ -459,22 +435,22 @@
   "Vespa": {
     "Audience": "Developers interested in a fully featured search engine and vector database",
     "About": "Apply AI to your data, online. At any scale, with unbeatable performance.\n\nYou'll need to co-locate vectors, metadata and content on the same item on the same node, run inference there to achieve scalable performance, and seamlessly scale this across nodes to handle any amount of data and traffic. Vespa does all this for you so you can focus on building your application.\n\nVespa is a fully featured search engine and vector database. It supports vector search (ANN), lexical search, and search in structured data, all in the same query. Integrated machine-learned model inference allows you to apply AI to make sense of your data in real time.\n\nRecommendation, personalization and targeting involves evaluating recommender models over content items to select the best ones. Vespa lets you build applications which do this online, typically combining fast vector search and filtering with the evaluation of machine-learned models over the items.",
-    "Pricing": {
-      "Starting Price": "Free",
-      "Pricing Details": "Open source",
-      "Free Version": "Free Version available."
-    },
     "Company Information": {
       "Name": "Vespa.ai",
       "Founded": "2017",
       "Website": "vespa.ai/"
     },
     "Product Details": {
+      "IsOpenSource": true,
+      "API": true,
+      "Documentation": "https://docs.vespa.ai/",
       "Platforms Supported": [
         "SaaS",
         "On-Premise"
       ],
-      "Training": "Documentation"
+      "Pricing": {
+        "Free": 0
+      }
     },
     "User Types": [
       "Mid Size Business",
@@ -487,7 +463,6 @@
     "Supported Languages": [
       "English"
     ],
-    "Training": "Documentation",
     "Product Features": [
       "Neural Search",
       "Vector Databases"
@@ -498,23 +473,22 @@
   "Nomic Atlas": {
     "Audience": "Companies that need an advanced Data Mapping solution",
     "About": "Atlas integrates into your workflow by organizing text and embedding datasets into interactive maps for exploration in a web browser. You shouldn’t have to scroll through Excel files, log Dataframes and page through lists to understand your data. Atlas automatically reads, organizes and summarizes your collections of documents surfacing trends and patterns. Atlas’ pre-organized data interface allows you to quickly surface pathologies and dirty data that can jeopardize your AI projects. Label and tag your data while you clean it with immediate sync to your Jupyter Notebook. Vector databases enable powerful applications such as recommendation systems but are notoriously hard to interpret. Atlas stores, visualizes and lets you search through all of your vectors in the same API.",
-    "Pricing": {
-      "Starting Price": "$50 per month",
-      "Free Version": "Free Version available."
-    },
-    "Integrations": {
-      "API": "Yes, Nomic Atlas offers API access"
-    },
     "Company Information": {
-      "Name": "Nomic AI",
+      "Location":"United States",
       "Website": "atlas.nomic.ai/"
     },
     "Product Details": {
+      "API": true,
+      "IsOpenSource": false,
+      "Github": "https://github.com/nomic-ai/nomic",
+      "Documentation": "https://docs.nomic.ai/",
       "Platforms Supported": [
         "SaaS"
       ],
-      "Training": "Documentation",
-      "Support": "Online"
+      "Support": "Online",
+      "Pricing": {
+        "Free": 0
+      }
     },
     "User Types": [
       "Mid Size Business",
@@ -527,7 +501,6 @@
     "Supported Languages": [
       "English"
     ],
-    "Training": "Documentation and live online",
     "Product Features": [
       "Data Labeling",
       "Data Mapping",
@@ -539,23 +512,26 @@
   "Weaviate": {
     "Audience": "Developers interested in a powerful open source vector database",
     "About": "Weaviate is an open-source vector database. It allows you to store data objects and vector embeddings from your favorite ML-models, and scale seamlessly into billions of data objects. Whether you bring your own vectors or use one of the vectorization modules, you can index billions of data objects to search through. Combine multiple search techniques, such as keyword-based and vector search, to provide state-of-the-art search experiences. Improve your search results by piping them through LLM models like GPT-3 to create next-gen search experiences. Beyond search, Weaviate's next-gen vector database can power a wide range of innovative apps. Perform lightning-fast pure vector similarity search over raw vectors or data objects, even with filters. Combine keyword-based search with vector search techniques for state-of-the-art results. Use any generative model in combination with your data, for example to do Q&A over your dataset.",
-    "Pricing": {
-      "Starting Price": "Free",
-      "Pricing Details": "Open source",
-      "Free Version": "Free Version available."
-    },
     "Company Information": {
-      "Name": "Weaviate",
       "Founded": "2019",
       "Location": "The Netherlands",
       "Website": "weaviate.io"
     },
     "Product Details": {
+      "API":true,
+      "IsOpenSource": true,
+      "Github": "https://github.com/weaviate/weaviate",
+      "Documentation": "https://weaviate.io/developers/weaviate",
       "Platforms Supported": [
         "SaaS"
       ],
-      "Training": "Documentation",
-      "Support": "Online"
+      "Support": "Online",
+      "Pricing": {
+        "Sandbox": 0,
+        "Standard $/month": 25,
+        "Enterprise $/month": 135,
+        "Business Critical $/month": 450
+      }
     },
     "User Types": [
       "Mid Size Business",
@@ -579,7 +555,6 @@
       "Hugging Face",
       "OpenAI"
     ],
-    "Training": "Documentation",
     "Product Features": [
       "Vector Databases"
     ]
@@ -589,36 +564,34 @@
   "Milvus": {
     "Audience": "Enterprises in need of a solution to manage their vector data and create a large scale similarity search service",
     "About": "Vector database built for scalable similarity search. Open-source, highly scalable, and blazing fast. Store, index, and manage massive embedding vectors generated by deep neural networks and other machine learning (ML) models. With Milvus vector database, you can create a large-scale similarity search service in less than a minute. Simple and intuitive SDKs are also available for a variety of different languages. Milvus is hardware efficient and provides advanced indexing algorithms, achieving a 10x performance boost in retrieval speed. Milvus vector database has been battle-tested by over a thousand enterprise users in a variety of use cases. With extensive isolation of individual system components, Milvus is highly resilient and reliable. The distributed and high-throughput nature of Milvus makes it a natural fit for serving large-scale vector data. Milvus vector database adopts a systemic approach to cloud-nativity, separating compute from storage.",
-    "Pricing": {
-      "Starting Price": "Free",
-      "Free Version": "Free Version available."
-    },
-    "Integrations": {
-      "API": "Yes, Milvus offers API access",
-      "Other Applications": [
-        "Amazon S3",
-        "Apache Kafka",
-        "Apache Pulsar",
-        "Azure Blob Storage",
-        "Docker",
-        "Kubernetes",
-        "MinIO",
-        "Zilliz Cloud"
-      ]
-    },
     "Company Information": {
-      "Name": "The Milvus Project",
       "Founded": "2020",
       "Location": "United States",
       "Website": "milvus.io"
     },
     "Product Details": {
+      "API": true,
+      "IsOpenSource": true,
+      "Github": "https://github.com/milvus-io/milvus",
+      "Documentation": "https://milvus.io/docs/install_standalone-docker.md",
       "Platforms Supported": [
         "SaaS"
       ],
-      "Training": "Documentation, live online, in person, and videos",
-      "Support": "Online"
+      "Support": "Online",
+      "Pricing": {
+        "Free": 0
+      }
     },
+    "Integration": [
+      "Amazon S3",
+      "Apache Kafka",
+      "Apache Pulsar",
+      "Azure Blob Storage",
+      "Docker",
+      "Kubernetes",
+      "MinIO",
+      "Zilliz Cloud"
+  ],
     "User Types": [
       "Mid Size Business",
       "Small Business",
@@ -640,52 +613,51 @@
   "Zilliz Cloud": {
     "Audience": "Companies and enterprises in search of a solution to manage their large-scale vector data infrastructure",
     "About": "Zilliz Cloud is a fully managed vector database based on the popular open-source Milvus. Zilliz Cloud helps to unlock high-performance similarity searches with no previous experience or extra effort needed for infrastructure management. It is ultra-fast and enables 10x faster vector retrieval, a feat unparalleled by any other vector database management system. Zilliz includes support for multiple vector search indexes, built-in filtering, and complete data encryption in transit, a requirement for enterprise-grade applications. Zilliz is a cost-effective way to build similarity search, recommender systems, and anomaly detection into applications to keep that competitive edge.",
-    "Pricing": {
-      "Starting Price": "$0",
-      "Pricing Details": {
-        "Zilliz Cloud on AWS": {
-          "Compute Unit (CU)": "$0.259 / hour",
-          "Storage": "$0.025 / GB per month"
-        },
-        "Zilliz Cloud on Google Cloud": {
-          "Compute Unit (CU)": "$0.215 / hour",
-          "Storage": "$0.02 / GB per month"
-        }
-      },
-      "Free Trial": "Free Trial available."
-    },
-    "Integrations": {
-      "API": "Yes, Zilliz Cloud offers API access",
-      "Other Applications": [
-        "Amazon Web Services (AWS)",
-        "ChatGPT Plus",
-        "ChatGPT",
-        "Cohere",
-        "Google Cloud Platform",
-        "Hugging Face",
-        "Java",
-        "Milvus",
-        "OpenAI",
-        "PyTorch"
-      ]
-    },
     "Company Information": {
-      "Name": "Zilliz",
       "Founded": "2017",
       "Location": "United States",
       "Website": "zilliz.com"
     },
     "Product Details": {
+      "API": true,
+      "IsOpenSource": false,
+      "Github": "https://github.com/zilliztech/",
+      "Documentation": "https://zilliz.com/doc/about_zilliz_cloud",
       "Platforms Supported": [
         "SaaS"
       ],
-      "Training": "Documentation, webinars, in person, and videos",
       "Support": [
         "Business Hours",
         "24/7 Live Support",
         "Online"
-      ]
+      ],
+      "Pricing": {
+        "Free trial": 0,
+        "Enterprise": {
+          "Zilliz Cloud on AWS": {
+            "Compute Unit (CU)": "$0.259 / hour",
+            "Storage": "$0.025 / GB per month"
+          },
+          "Zilliz Cloud on Google Cloud": {
+            "Compute Unit (CU)": "$0.215 / hour",
+            "Storage": "$0.02 / GB per month"
+          }
+        },
+        "Free Trial": "Free Trial available."
+      }
     },
+    "Integration": [
+      "Amazon Web Services (AWS)",
+      "ChatGPT Plus",
+      "ChatGPT",
+      "Cohere",
+      "Google Cloud Platform",
+      "Hugging Face",
+      "Java",
+      "Milvus",
+      "OpenAI",
+      "PyTorch"
+  ],
     "User Types": [
       "Mid Size Business",
       "Small Business",
@@ -701,11 +673,7 @@
       "Vector Databases"
     ],
     "Free Trial": true,
-    "Support Pricing": "Support included with purchase",
-    "Product Features": [
-      "Database",
-      "Vector Databases"
-    ]
+    "Support Pricing": "Support included with purchase"
   }
 }
 ]
