@@ -7,10 +7,12 @@
       "Website": "qdrant.tech/"
     },
     "Audience": "Anyone interested in a vector search engine",
+    "Price": {},
     "Product Details": {
       "Platforms Supported": "SaaS",
       "Training": "Documentation",
-      "Support": "Online"
+      "Support": "Online",
+      "API": true
     },
     "User Types": [
       "Mid Size Business",
@@ -43,6 +45,7 @@
       "Website": "www.pinecone.io"
     },
     "Audience": "AI developers that need a long-term memory solution built for AI",
+    "Price": {},
     "Product Details": {
       "Platforms Supported": "SaaS",
       "Training": "Documentation",
@@ -91,7 +94,7 @@
       "Website": "www.featureform.com/embeddinghub"
     },
     "Audience": "Machine learning developers interested in a powerful vector/embeddings database",
-    "Pricing": {
+    "Price": {
       "Starting Price": "Free",
       "Free Version": "Free Version available."
     },
