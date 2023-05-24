@@ -22,7 +22,7 @@
     "Supported Languages": [
       "English"
     ],
-    "Integrate with": [
+    "Integration": [
       "ChatGPT Plus"
     ],
     "Product Features": [
@@ -33,4 +33,52 @@
     ]
   }
 },
+{
+  "Pinecone": {
+    "About": "Long-term memory for AI. The Pinecone vector database makes it easy to build high-performance vector search applications. Developer-friendly, fully managed, and easily scalable without infrastructure hassles. Once you have vector embeddings, manage and search through them in Pinecone to power semantic search, recommenders, and other applications that rely on relevant information retrieval. Ultra-low query latency, even with billions of items. Give users a great experience. Live index updates when you add, edit, or delete data. Your data is ready right away. Combine vector search with metadata filters for more relevant and faster results. Launch, use, and scale your vector search service with our easy API, without worrying about infrastructure or algorithms. We'll keep it running smoothly and securely.",
+    "Company Information": {
+      "Founded": "2019",
+      "Location": "United States",
+      "Website": "www.pinecone.io"
+    },
+    "Product Details": {
+      "Platforms Supported": "SaaS",
+      "Training": "Documentation",
+      "Support": "Online",
+      "API": true
+    },
+    "User Types": [
+      "Mid Size Business",
+      "Small Business",
+      "Enterprise",
+      "Freelance",
+      "Nonprofit",
+      "Government"
+    ],
+    "Supported Languages": [
+      "English"
+    ],
+    "Integration": [
+      "Amazon Web Services (AWS)",
+      "ChatGPT Plus",
+      "ChatGPT",
+      "Databricks Lakehouse",
+      "deepset",
+      "Elasticsearch",
+      "Google Cloud Platform",
+      "GPT-3.5",
+      "GPT-3",
+      "GPT-4",
+      "Hugging Face",
+      "OpenAI"
+    ],
+    "Product Features": [
+      "AI Development",
+      "Artificial Intelligence",
+      "Semantic Search",
+      "Vector Databases"
+    ]
+  }
+}
+
 ]
